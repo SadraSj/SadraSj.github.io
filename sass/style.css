@@ -1,0 +1,369 @@
+@font-face {
+  font-family: "BYekan";
+  src: url(../font/BYekan.ttf);
+}
+
+@font-face {
+  font-family: "BYekanBold";
+  src: url(../font/BYekanBold.ttf);
+}
+
+body {
+  direction: rtl;
+}
+
+.nav-link {
+  font-family: 'BYekan';
+  color: #707070;
+  font-size: 20px;
+  margin: 0 10px;
+  -webkit-transition: 500ms ease-in-out;
+  transition: 500ms ease-in-out;
+}
+
+.nav-link:hover {
+  color: #70707050;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar-toggler i {
+  color: #707070;
+}
+
+.main {
+  padding: 50px 0;
+}
+
+.main-image {
+  text-align: center;
+}
+
+.main-image img {
+  height: 400px;
+}
+
+.main-content {
+  padding-top: 100px;
+}
+
+.main-content h2 {
+  font-family: 'BYekanBold';
+  color: #707070;
+}
+
+.main-content p {
+  padding-left: 100px !important;
+  font-family: 'BYekan';
+  color: #707070;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.main-content a {
+  font-family: 'BYekanBold';
+  margin: 0 6px;
+  padding: 4px 30px;
+  border: 3px solid #707070 !important;
+  border-radius: 8px;
+  text-decoration: none !important;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.main-content .firstbtn {
+  background: #707070;
+  color: white;
+  -webkit-transition: 500ms ease-in-out;
+  transition: 500ms ease-in-out;
+}
+
+.main-content .firstbtn:hover {
+  background: transparent;
+  color: #707070;
+}
+
+.main-content .secondbtn {
+  background: transparent;
+  color: #707070;
+  -webkit-transition: 500ms ease-in-out;
+  transition: 500ms ease-in-out;
+}
+
+.main-content .secondbtn:hover {
+  background: #707070;
+  color: white;
+}
+
+.about {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.about h2 {
+  text-align: center;
+  font-family: 'BYekanBold';
+  color: #707070;
+}
+
+.about .row {
+  padding-top: 100px;
+}
+
+.about .row .about-box {
+  font-size: 20px;
+}
+
+.about .row .about-box p {
+  font-family: 'BYekan';
+  color: #707070;
+  padding-left: 50px;
+}
+
+.about .progress-box {
+  width: 250px;
+}
+
+.about .progress {
+  margin: 10px;
+  border: solid 4px #707070 !important;
+  border-radius: 15px !important;
+  font-family: 'Comic Sans MS';
+  font-weight: 600;
+}
+
+.about .progress-bar {
+  background-color: #707070 !important;
+}
+
+.about .progress-box span {
+  position: absolute;
+  font-family: 'BYekanBold';
+  font-size: 20px;
+  color: #535353;
+  font-weight: normal;
+}
+
+.portfolio {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.portfolio h2 {
+  text-align: center;
+  font-family: 'BYekanBold';
+  color: #707070;
+}
+
+.portfolio .gallery-box .row {
+  padding-top: 50px;
+}
+
+.portfolio .gallery-box img {
+  border-radius: 15px;
+}
+
+.portfolio .gallery-box button {
+  border: solid 3px #707070;
+  border-radius: 30px;
+  margin: 10px 5px;
+  color: #707070;
+  font-family: 'BYekanBold';
+  font-weight: bold;
+  -webkit-transition: 500ms ease-in-out;
+  transition: 500ms ease-in-out;
+}
+
+.portfolio .gallery-box button:hover {
+  color: #707070;
+}
+
+.portfolio .gallery-box button:focus, .portfolio .gallery-box button:focus:active {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #707070;
+  color: white;
+}
+
+.contact {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.contact h2 {
+  text-align: center;
+  font-family: 'BYekanBold';
+  color: #707070;
+}
+
+.contact form {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.contact form input {
+  margin: 10px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 40px;
+  width: 180px;
+  border-radius: 30px;
+  font-family: 'BYekan';
+  color: #707070;
+  background-color: #D5D5D5;
+}
+
+.contact form textarea {
+  margin-top: 10px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 25px;
+  font-family: 'BYekan';
+  color: #707070;
+  background-color: #D5D5D5;
+  width: 400px;
+}
+
+.contact form .send-btn {
+  width: 125px;
+  padding: 0;
+  background-color: #707070;
+  color: white;
+  font-family: 'BYekanBold';
+  -webkit-transition: 500ms ease-in-out;
+  transition: 500ms ease-in-out;
+}
+
+.contact form .send-btn:hover {
+  background-color: #D5D5D5;
+  color: #707070;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 20px;
+  font-family: 'BYekan';
+  font-size: 18px;
+  background-color: #707070;
+}
+
+footer .row div {
+  padding: 5px;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none !important;
+  color: white;
+  -webkit-transition: 500ms ease-in-out;
+  transition: 500ms ease-in-out;
+}
+
+footer a:hover {
+  color: #212529;
+}
+
+footer ul {
+  list-style: none;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  padding: 0 10px;
+}
+
+footer ul li a i {
+  font-size: 24px;
+}
+
+@media (max-width: 575.98px) {
+  .progress-box {
+    padding-top: 50px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .main {
+    text-align: center;
+  }
+  .main .main-content {
+    padding-top: 50px;
+  }
+  .main .main-content p {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .about .row {
+    padding-top: 50px;
+  }
+  .about .about-box p {
+    text-align: center;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .progress-box span {
+    position: relative !important;
+  }
+}
+
+.gallery {
+  -webkit-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  column-width: 33%;
+}
+
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.gallery .animation {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
